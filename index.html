@@ -7,6 +7,60 @@
     <title>Sign-up form</title>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="bg-image">
+            <div class="odin-logo">
+                <img src="img/odin-lined.png" alt="The Odin Project logo">
+                <p id="odin-logo-text">ODIN</p>
+            </div>
+        </div>
+        <div class="content">
+            <section id="headSection">
+                <h1>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. <br>
+                    Sign up now to get started
+                </h1>
+                <h1>You know you want to.</h1>
+            </section>
+            <section id="formSection">
+                <form action="" method="post">
+                    <legend>Let's do this!</legend>
+                    <div class="formLine">
+                        <div class="formElement">
+                            <label for="fname">FIRST NAME</label>
+                            <input type="text" name="user_firstName" id="fname">
+                        </div>
+                        <div class="formElement">
+                            <label for="lname">LAST NAME</label>
+                            <input type="text" name="user_lastName" id="lname">
+                        </div>
+                    </div>
+                    <div class="formLine">
+                        <div class="formElement">
+                            <label for="email">EMAIL</label>
+                            <input type="email" name="user_email" id="email">
+                        </div>
+                        <div class="formElement">
+                            <label for="phone">PHONE NUMBER</label>
+                            <input type="text" name="user_phone" id="phone">
+                        </div>
+                    </div>
+                    <div class="formLine">
+                        <div class="formElement">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" name="user_password" id="password">
+                        </div>
+                        <div class="formElement">
+                            <label for="confirm_password">CONFIRM PASSWORD</label>
+                            <input type="password" name="user_confirmPassword" id="confirm_password">
+                        </div>
+                    </div>
+                </form>
+            </section>
+            <section id="loginSection">
+                 <button id="btn-submit">Create Account</button>
+                <p>Already have an account? <a rel="stylesheet" href="">Log in</p>
+            </section>
+        </div>
+    </div>
 </body>
 </html>
