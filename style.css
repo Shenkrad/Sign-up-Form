@@ -46,6 +46,15 @@ body {
     margin: 10px;
 }
 
+.photo-credit {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: .8em;
+}
+
 h1 {
     font-size: 1.4em;
     font-weight: 600;
@@ -141,19 +150,27 @@ button:hover {
     cursor: pointer;
 }
 
-a {
+#loginSection {
     text-decoration: none;
     font-weight: 600;
 }
 
-a:link {
+#login-link:link {
     color: #596D48;
 }
 
-a:visited {
+#login-link:visited {
     color: #596D48;
 }
 
 #loginSection p {
     margin-top: 40px;
+}
+
+.imageRef-link:link {
+    color: white;
+}
+
+.imageRef-link:visited {
+    color: white;
 }

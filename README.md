@@ -65,14 +65,6 @@ It emphasizes correct structure, field validation, and visual organization — w
 
 ---
 
-## 🖼️ Preview
-
-*(You can add a screenshot in `/images/preview.png` and link it here later)*  
-Example:
-
-    ![Form preview](./images/preview.png)
-
----
 
 ## 📚 Acknowledgements
 
