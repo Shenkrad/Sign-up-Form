@@ -15,7 +15,7 @@ body {
 .bg-image {
     height: 100vh;
     min-width: 500px;
-    background-image: url("/img/photo-1585202900225-6d3ac20a6962.avif");
+    background-image: url("img/photo-1585202900225-6d3ac20a6962.avif");
     position: relative;
 }
 
