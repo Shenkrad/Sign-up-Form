@@ -137,6 +137,10 @@ input:invalid {
     font-size: 1.1em;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 a {
     text-decoration: none;
     font-weight: 600;

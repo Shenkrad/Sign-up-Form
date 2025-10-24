@@ -27,31 +27,31 @@
                     <div class="formLine">
                         <div class="formElement">
                             <label for="fname">FIRST NAME</label>
-                            <input type="text" name="user_firstName" id="fname">
+                            <input type="text" name="user_firstName" id="fname" required>
                         </div>
                         <div class="formElement">
                             <label for="lname">LAST NAME</label>
-                            <input type="text" name="user_lastName" id="lname">
+                            <input type="text" name="user_lastName" id="lname" required>
                         </div>
                     </div>
                     <div class="formLine">
                         <div class="formElement">
                             <label for="email">EMAIL</label>
-                            <input type="email" name="user_email" id="email">
+                            <input type="email" name="user_email" id="email" required>
                         </div>
                         <div class="formElement">
                             <label for="phone">PHONE NUMBER</label>
-                            <input type="text" name="user_phone" id="phone">
+                            <input type="text" name="user_phone" id="phone" required>
                         </div>
                     </div>
                     <div class="formLine">
                         <div class="formElement">
                             <label for="password">PASSWORD</label>
-                            <input type="password" name="user_password" id="password">
+                            <input type="password" name="user_password" id="password" required pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d]{8,}">
                         </div>
                         <div class="formElement">
                             <label for="confirm_password">CONFIRM PASSWORD</label>
-                            <input type="password" name="user_confirmPassword" id="confirm_password">
+                            <input type="password" name="user_confirmPassword" id="confirm_password" required pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d]{8,}">
                         </div>
                     </div>
                 </form>
